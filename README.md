@@ -1,5 +1,5 @@
-devbox
-======
+Laravel4-Vagrant
+================
 
 devbox is a Vagrant development machine provisioned and preconfigured for working with PHP and the [Laravel](http://www.laravel.com) framework out of the box. From nginx, php5.4 to composer it has got everything you need for Laravel 4.
 
