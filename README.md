@@ -5,7 +5,7 @@ Laravel4-Vagrant is a Vagrant development machine provisioned and preconfigured 
 
 
 ## Features / Stack
-Ubuntu 12.04 64bit, Nginx, PHP5.5, php-fpm, composer, MySQL 5.5, Redis, supervisord, Sphinx, Node.js
+Ubuntu 12.04 64bit, Nginx, PHP5.5, php-fpm, composer, MySQL 5.5, Redis, supervisord, Node.js
 
 
 
@@ -17,8 +17,8 @@ Ubuntu 12.04 64bit, Nginx, PHP5.5, php-fpm, composer, MySQL 5.5, Redis, supervis
 
 ## Initial Setup
 
-* Install VirtualBox and Vagrant ( >= 1.3.0)
-* Clone this repository `git clone https://github.com/Altanawealth/laravel_vagrant_box.git`. 
+* Install VirtualBox and Vagrant
+* Clone this repository `git clone https://github.com/olivierbufalini/Laravel4-Vagrant.git`. 
 * Run `vagrant up` inside the newly created directory. (the first time you run Vagrant it will fetch the virtual box image which is ~300mb. So this could take some time)
 * Vagrant will now use Puppet to provision the devbox (this could take a few minutes)
 * Point "devbox" and any other vhosts to `192.168.3.3` in your hosts file of your host OS. e.g. `192.168.3.3 devbox myproject.dev myotherproject.dev [HOSTNAME]` 
